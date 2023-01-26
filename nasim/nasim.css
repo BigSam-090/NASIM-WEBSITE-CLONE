@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.menu{
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    z-index: 99;
+    margin: 0;
+    box-shadow: 1px 1px 1px 2px rgb(185, 184, 184);
+}
+
+.text{
+    font-size: 18px;
+    font-weight: 400;
+    margin:20px;
+    color: rgb(27, 27, 27);
+}
+.navbar{
+    width: 80%;
+    flex: 1;
+    text-align: right;
+    margin-right: 40px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+}
+.navbar ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
+.log-btn{
+    width: 25%;
+    height: 9vh;
+    background-color:rgb(4, 143, 96);
+    color: white;
+    font-size: 18px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.first-cont{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+}
+.left-col{
+    width: 50%;
+    height: 120vh;
+    background-color: rgb(255, 245, 246);
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 17%;
+    margin-top: 20%;
+}
+.left-col h6{
+    text-decoration: underline;
+    font-size: 25px;
+    margin-left: 10%;
+    color: rgb(26, 26, 26);
+    font-weight: 100;
+    padding: 10px;
+}
+.left-col h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 10%;
+    color:rgb(26, 26, 26);
+    padding: 10px;
+    line-height: 60px;
+
+}
+.left-col p{
+    font-size: 17px;
+    margin-left: 10%;
+    color:rgb(26, 26, 26);
+    padding: 10px;
+    line-height: 30px;
+    font-weight: 200;
+    margin-right: 15%;
+}
+.left-col a{
+    margin-left: 11%;
+    color:rgb(4, 143, 96);
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.right-col{
+    width: 50%;
+    height: 120vh;
+    background-image: url(images/market-women.png);
+    background-size: cover;
+}
+.row{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    text-align: center;
+}
+.row h6{
+    color: white;
+    font-size: 17px;
+    padding: 25px;
+    font-weight: 100;
+}
+.row h6 a{
+    color:rgb(4, 143, 96);
+    text-decoration: none;
+}
+.second-cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 5%;
+}
+.right-col-1{
+    width: 50%;
+    height: 100vh;
+}
+.right-col-1 h1{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.right-col-1 h6{
+    font-size: 15px;
+    line-height: 25px;
+    margin-right: 15%;
+    color: darkgray;
+    font-weight: 200;
+}
+.right-col-1 h6 a{
+    text-decoration: none;
+    color: rgb(4, 143, 96);;
+}
+.right-col-1 p{
+    font-size: 15px;
+    margin-top: 40px;
+    line-height: 25px;
+    font-weight: 200;
+    color: darkgray;
+
+}
+
+.left-col-1{
+    width: 50%;
+    height: 100vh;
+    
+}
+.cord{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.card{   
+    width: 35%;
+    height: 45vh;
+}
+.card-1{
+    background-image: url(images/muhamadu\ buhari.jpg);
+    margin-top: 30px;
+    margin-left: 60px;
+    background-size: cover;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.card-2{
+    background-image: url(images/Hon._Sadiya_Umar_Farouq.jpg);
+    margin-top: 30%;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-size: cover;
+}
+.third-cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.left-col-2{
+    width: 50%;
+    height: 100vh;;
+}
+.left-col-2 h6{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 100;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+.left-col-2 h6 a{
+    text-decoration: none;
+    color: orange;
+}
+.left-col-2 h5{
+    margin-left: 20px;
+    font-size: 30px;
+    color: darkslategrey;
+    line-height: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.left-col-2 p{
+    margin-left: 16px;
+    line-height: 1.5em;
+    color: darkslategray;
+    font-size: 18px;
+    
+}
+.r-btn{
+    width: 30%;
+    height: 10%;
+    background-color: rgb(4, 143, 96);;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 16px;
+    
+}
+.r-btn:hover{
+    border: 3px solid rgb(32, 170, 124);
+}
+.right-col-2{
+    width: 50%;
+    height: 100vh;
+}
+.cord-1{
+    width: 80%;
+    height: 42vh;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 5%; 
+}
+
+.card-3{
+    background-image: url(images/famer0.jpg);
+    margin-top: 20px;
+    margin-left: 5px;
+    background-size: cover;
+    margin-right: 60px;
+    border-radius: 10px;
+    width: 35%;
+    height: 40vh;
+}
+.card-4{
+    background-image: url(images/farmer1.jpg);
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-size: cover;
+    width: 30%;
+    height: 30vh;
+}
+
+.cord-2{
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 5%; 
+}
+.card-5{
+    background-image: url(images/farmer2.jpg);
+    margin-top: 20px;
+    margin-left: 50px;
+    background-size: cover;
+    margin-right: 40px;
+    border-radius: 10px;
+    width: 30%;
+    height: 35vh;
+}
+.card-6{
+    background-image: url(images/man-famer.jpg);
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 10px;
+    background-size: cover;
+    width: 30%;
+    height: 35vh;
+}
+
+.f-content{
+    width: 100%;
+    height: 160vh;
+    background-color: rgb(240, 252, 240);
+    align-items: center;
+    justify-content: center;
+}
+.f-content h2{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding: 30px;
+}
+.f-content p{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(41, 40, 40);
+    padding: 30px;
+}
+.p-content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 20px;
+    gap: 5px;
+}
+.p-left-col{
+    width: 50%;
+    height: 60%;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+}
+.col-1{
+    width: 100%;
+    height: 80%;
+    background-image: url('images/children.jpg');
+}
+.c-text{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.c-text h3{
+    font-size: 25px;
+    color: orange;
+    padding: 30px;
+}
+.c-text p{
+    font-size: 16px;
+    color: darkslategray;
+    line-height: 2em;
+    padding: 10px 30px;
+    text-align: left;
+}
+.p-btn{
+    width: 30%;
+    height: 20%;
+    background-color: rgb(4, 143, 96);;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 60px; 
+    font-size: 16px;  
+}
+.p-btn:hover{
+    border: 3px solid rgb(32, 170, 124);
+}
+.l-btn{
+    width: 30%;
+    height: 20%;
+    background-color: rgb(228, 247, 241);;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 60px; 
+    font-size: 16px;
+}
+.l-btn:hover{
+    border: 3px solid rgb(190, 248, 229);
+}
+.p-right-col{
+    width: 50%;
+    height: 60%;
+    background-color: rgb(209, 30, 30);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.col-2{
+    width: 100%;
+    height: 80%;
+    background-image: url('images/engineer1.jpg');
+}
+.c-text{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.c-text h3{
+    font-size: 25px;
+    color: orange;
+    padding: 30px;
+}
+.c-text p{
+    font-size: 16px;
+    color: darkslategray;
+    line-height: 2em;
+    padding: 10px 30px;
+    text-align: left;
+}
+.a-btn{
+    width: 30%;
+    height: 20%;
+    background-color: rgb(4, 143, 96);;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 90px; 
+    font-size: 16px;  
+}
+.a-btn:hover{
+    border: 3px solid rgb(32, 170, 124);
+}
+.b-btn{
+    width: 30%;
+    height: 20%;
+    background-color: rgb(228, 247, 241);;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 90px;
+    font-size: 16px; 
+}
+.b-btn:hover{
+    border: 3px solid rgb(190, 248, 229);
+}
+.contact{
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+.contact h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    color: black;
+    padding: 20px;
+}
+.contact p{
+    text-align: center;
+    font-size: 18px;
+    color: darkslategray;
+    padding: 5px;
+}
+
+.c-btn{
+    width: 15%;
+    height: 20%;
+    background-color: rgb(4, 143, 96);;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 42%;
+    margin-top: 60px;
+    font-size: 16px;   
+}
+.c-btn:hover{
+    border: 3px solid rgb(32, 170, 124);
+}
+.footer{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(1, 61, 41);
+}
+.footer ul{
+    margin-left: 35%;
+}
+.footer ul li{
+    font-size: 16px;
+    display: inline-block;
+    gap: 10px;
+    padding: 50px 20px;
+}
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.icon{
+    margin-left: 42%;
+    display: flex;
+    gap: 30px;
+}
+.icons{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+.footer p{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+
+}
